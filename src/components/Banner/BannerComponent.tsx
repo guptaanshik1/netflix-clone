@@ -24,7 +24,7 @@ const BannerComponent = () => {
           </button>
         </div>
         <h1 className="w-[350px] leading-5 pt-4 text-base max-w-sm h-20">
-          {truncateChars(`asdadasd`, 150)}
+          {truncateChars(`Banner Description`, 150)}
         </h1>
       </div>
 
