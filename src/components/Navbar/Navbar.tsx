@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <div
       className={`${
-        show && "bg-black"
+        show && "bg-black z-20"
       }  fixed top-0 p-5 w-[100%] h-[100px] z-100 ease-in duration-500`}
     >
       <div className="flex justify-between align-middle w-full">
