@@ -13,16 +13,24 @@ const Row = ({ title, url, isLargeRow = false }: IProps) => {
 
   return (
     <>
-      <div className="">
+      <div className="ml-[20px]">
         {title}
-        {data?.results?.map((movie) => {
-          return (
-            <img
-              src={`https://image.tmdb.org/t/p/original/${movie?.backdrop_path}`}
-              alt=""
-            />
-          );
-        })}
+        <div className="flex overflow-y-hidden overflow-x-scroll p-5 scrollbar">
+          {data?.results?.map((movie) => {
+            return (
+              <img
+                className={`${
+                  isLargeRow && "large-poster"
+                } max-h-[150px] object-contain mr-2 transition-all duration-[450ms] hover:scale-[1.08] hover:opacity-1 z-10`}
+                key={movie?.id}
+                src={`https://image.tmdb.org/t/p/original/${
+                  !isLargeRow ? movie?.backdrop_path : movie?.poster_path
+                }`}
+                alt=""
+              />
+            );
+          })}
+        </div>
       </div>
     </>
   );

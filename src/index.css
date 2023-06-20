@@ -5,3 +5,24 @@
 * {
   margin: 0;
 }
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    display: none;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    display: none;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    display: none;
+  }
+  .large-poster {
+    max-height: 250px;
+  }
+}

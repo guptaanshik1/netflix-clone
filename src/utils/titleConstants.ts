@@ -4,5 +4,5 @@ export const TOP_RATED = "Top Rated";
 export const ACTION_MOVIES = "Action Movies";
 export const COMEDY_MOVIES = "Comedy Movies";
 export const HORROR_MOVIES = "Horror Movies";
-export const Romnace_MOVIES = "Romance Movies";
+export const ROMANCE_MOVIES = "Romance Movies";
 export const DOCUMENTARIES = "Documentaries";

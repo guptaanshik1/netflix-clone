@@ -6,7 +6,7 @@ import {
   DOCUMENTARIES,
   HORROR_MOVIES,
   NETFLIX_ORIGINALS,
-  Romnace_MOVIES,
+  ROMANCE_MOVIES,
   TOP_RATED,
   TRENDING_NOW,
 } from "../utils/titleConstants";
@@ -43,7 +43,7 @@ export const rowContent: IRowCMSData[] = [
     isLargeRow: false,
   },
   {
-    title: Romnace_MOVIES,
+    title: ROMANCE_MOVIES,
     fetchUrl: requests.fetchRomanceMovies,
     isLargeRow: false,
   },
