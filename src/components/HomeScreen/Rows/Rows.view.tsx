@@ -5,12 +5,12 @@ import {
   NETFLIX_ORIGINALS,
   ROMANCE_MOVIES,
   TRENDING_NOW,
-} from "../../utils/titleConstants";
-import { requests } from "../../utils/Requests";
-import { TOP_RATED } from "../../utils/titleConstants";
-import { ACTION_MOVIES } from "../../utils/titleConstants";
-import { COMEDY_MOVIES } from "../../utils/titleConstants";
-import { HORROR_MOVIES } from "../../utils/titleConstants";
+} from "../../../utils/titleConstants";
+import { requests } from "../../../utils/Requests";
+import { TOP_RATED } from "../../../utils/titleConstants";
+import { ACTION_MOVIES } from "../../../utils/titleConstants";
+import { COMEDY_MOVIES } from "../../../utils/titleConstants";
+import { HORROR_MOVIES } from "../../../utils/titleConstants";
 
 export default function RowsView() {
   // @ts-ignore
