@@ -1,4 +1,4 @@
-import useRowData from "../../../hooks/useRowData";
+import useRowData from "../../../../hooks/useRowData";
 
 interface IProps {
   title: string;
